@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = RespringListener;
+	cell = PSLinkCell;
+	detail = RespringListenerListController;
+	icon = RespringListener.png;
+	isController = 1;
+	label = RespringListener;
+    };
+}

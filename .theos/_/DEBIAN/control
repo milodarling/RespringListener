@@ -1,0 +1,10 @@
+Package: respringlistener
+Name: RespringListener
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Milo Darling
+Author: Milo Darling
+Section: Tweaks
+Version: 1.0-1
+Installed-Size: 280
