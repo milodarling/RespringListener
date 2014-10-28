@@ -6,6 +6,10 @@ So, in certain situations (such as when your tweak is hooked into an app, and no
 
 All you have to do is post a notification like so:
 
-    CFNotificationCenterPostNotification ( CFNotificationCenterGetDarwinNotifyCenter(), CFSTR("respringDevice"), NULL, NULL, false );
+    CFNotificationCenterPostNotification (CFNotificationCenterGetDarwinNotifyCenter(), 
+                                          CFSTR("respringDevice"), 
+                                          NULL, 
+                                          NULL, 
+                                          false);
     
-Which will post a notification that RespringListener observes, and your device will respring. The notification can be "respringDevice" as shown above, "rebootDevice" to reboot it, or "powerOffDevice" to power it off. Enjoy!
+Which will post a notification that RespringListener observes, and your device will respring. The notification can be `"respringDevice"` as shown above, `"rebootDevice"` to reboot it, or `"powerOffDevice"` to power it off. Enjoy!
